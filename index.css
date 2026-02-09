@@ -376,19 +376,6 @@ body {
     color:#faf33e;
 }
 
-::-webkit-scrollbar {
-    width:5px;
-    height:5px;
-}
-::-webkit-scrollbar-track {
-    background: #fefff3; 
-}
-::-webkit-scrollbar-thumb {
-    background: #faf33e; 
-}
-::-webkit-scrollbar-thumb:hover {
-    background: #faf33eda; 
-}
 ::selection {
 	color: #fefff3;
 	background: #050503;
@@ -454,7 +441,7 @@ body {
   .card__info {
     margin-left: auto;
     margin-right: 5px;
-    margin-top: 10px;
+    margin-top: 0.85em;
     font-size: 1em;
     font-weight: 300;
     text-transform: uppercase;
@@ -529,6 +516,14 @@ body {
 
     .bio_info {
         grid-column-end: span 6;
+    }
+
+#middle h1 {
+        font-size: 3.75em;
+        margin: 0 0.5vh;
+    }
+   #middle h2 {
+        font-size: 1em;
     }
   }
 
