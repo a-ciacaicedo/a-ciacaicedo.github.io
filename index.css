@@ -138,7 +138,7 @@ body {
     top: 0;
     left: 0;
     z-index: 15;
-    background: url(../Assets/texture.png);
+    background: url(Assets/texture.png);
 }
 #about {
     width:10vw;
@@ -236,7 +236,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    background: url(../Assets/texture_wb.png);
+    background: url(Assets/texture_wb.png);
     z-index:10;
     margin: 0;
 }
@@ -247,7 +247,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    background: url(../Assets/texture_wb.png);
+    background: url(Assets/texture_wb.png);
     z-index:10;
     margin: 0;
 }
