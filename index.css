@@ -256,17 +256,34 @@ body {
     position: absolute;
     z-index:15;
     margin: 0;
+    width: 90%;
 }
 .container div {
     transition:0.4s ease-in-out;
 }
-.container div:hover {
-    cursor:pointer;
-}
+
 .container section {
     margin:0px 20px 80px 0px;
 }
 
+.go_back:hover{
+     cursor:pointer;
+     color: #73877f;
+}
+
+.cv:hover{
+    cursor:pointer;
+    color: #73877f;
+}
+
+.cv{
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    color: #050503;
+
+}
 
 #used div{
     font-size:14px !important;
@@ -405,54 +422,82 @@ body {
     grid-gap: 60px;
   }
   
-  .card {
+.card {
     grid-column-end: span 5;
     display: flex;
     flex-direction: column;
-  }
-  
-  .card__image-container {
+    background-color: #050503;
+    color: #fefff3
+}
+
+.available:hover {
+    transform: scale(1.02) rotate(0deg) translate(0px, 0px) skewX(0deg);
+    filter: brightness(1.2);
+    background-color: #050503cb;
+    color: #faf33e;
+    cursor:pointer;
+}
+
+.available:hover a{
+    text-decoration: none;
+    color: #faf33e;
+    cursor:pointer;
+}
+
+.available a{
+    text-decoration: none;
+    color: #fefff3;
+}
+
+.available:hover img {
+    opacity: 0.4;
+}
+
+
+.card__image-container {
     width: 100%;
     padding-top: 56.25%;
     overflow: hidden;
     position: relative;
-  }
+}
   
-  .card__image-container img {
+.card__image-container img {
     width: 100%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
+}
   
-  .card__content {
+.card__content {
     padding: 0px;
     display: flex;
-  }
+}
   
-  .card__title {
+.card__title {
+    padding-left: 0.5em;
     margin-bottom: 20px;
     margin-top: 10px;
     font-size: 1em;
     font-weight: bold;
-  }
+}
   
-  .card__info {
+.card__info {
     margin-left: auto;
     margin-right: 5px;
     margin-top: 0.85em;
     font-size: 1em;
     font-weight: 300;
     text-transform: uppercase;
-  }
+}
   
-  .card__price {
+.card__price {
     margin-left: auto;
     padding: 5px 20px;
-    background-color: #050503;
+    background-color: #fefff3;
     border-radius: 20px;
-  }
+    padding-right: 0.5em;
+}
   
   @media only screen and (max-width: 1000px) {
     .card {
