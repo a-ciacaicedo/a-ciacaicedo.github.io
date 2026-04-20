@@ -499,6 +499,20 @@ body {
     padding-right: 0.5em;
 }
   
+
+#charlie{
+  background-color: #faf33e;
+  border: none;
+  color: #050503;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
   @media only screen and (max-width: 1000px) {
     .card {
       grid-column-end: span 6;
@@ -571,6 +585,7 @@ body {
         font-size: 1em;
     }
   }
+
 
 @media (max-width: 800px){ 
     #about {

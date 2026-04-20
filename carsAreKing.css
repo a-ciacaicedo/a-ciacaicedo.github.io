@@ -1,0 +1,162 @@
+body {
+    padding:0px;
+    margin:0px;
+    background-size:cover;
+    font-family: "Figtree", sans-serif;
+}
+
+#middle {
+    width:100vw;
+    height:100vh;
+    position:fixed;
+    top:0;
+    text-align:center;
+    font-size:25px;
+    background:#050503;
+    z-index:4;
+    color:#fefff3;
+    overflow-y:scroll;
+}
+
+.texture {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: url(Assets/texture_wb.png);
+    z-index:10;
+    margin: 0;
+}
+
+.info {
+    position: absolute;
+    z-index:15;
+    margin: 5rem;
+}
+
+.go_back{
+    text-align: left;
+    color:#fefff3;
+    margin-bottom: 1rem;
+}
+
+.go_back a{
+    color:#fefff3;
+}
+
+.go_back a:hover{
+     cursor:pointer;
+     color: #faf33e;
+}
+
+.epk {
+    width: inherit;
+}
+
+.page {
+    width: 90vw;
+}
+
+.page img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.video-container{
+    height:40rem;
+    margin-bottom: 1rem;
+    display: flex;
+}
+
+.video-container img{
+    height: 100%;
+    object-fit: contain;
+}
+
+.yt {
+    flex-grow: 3;
+}
+
+ @media only screen and (max-width: 1000px) {
+    .video-container {
+        height: 25rem;
+        margin-bottom: 1rem;
+        display: flex;
+    }
+    .yt{
+        height: 25rem;
+    }
+    .info {
+        position: absolute;
+        z-index: 15;
+        margin: 2rem;
+    }
+  }
+
+@media (max-width: 800px){ 
+    .video-container {
+        height: 15rem;
+        margin-bottom: 1rem;
+        display: flex;
+    }
+    .yt{
+        height: 15rem;
+    }
+    .info {
+        position: absolute;
+        z-index: 15;
+        margin: 2rem;
+    }
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .video-container {
+        height: 15rem;
+        margin-bottom: 1rem;
+        display: flex;
+    }
+    .yt{
+        height: 15rem;
+    }
+    .info {
+        position: absolute;
+        z-index: 15;
+        margin: 2rem;
+    }
+
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .video-container{
+        height: 25rem;
+        width: 15rem;
+        margin-bottom: 1rem;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+    }
+
+     .yt{
+        margin-top: 1rem;
+        height: 25rem;
+    }
+    .info {
+        position: absolute;
+        z-index: 15;
+        margin: 2rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .section-title{
+        margin-right: 4.5rem;
+    }
+  }
+
+
+
+
